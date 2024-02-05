@@ -1,0 +1,10 @@
+[package]
+name = "rzfs_userspace"
+version = "0.0.0"
+edition = "2021"
+
+[[bin]]
+name = "rzfs"
+
+[dependencies]
+rzfs_lib = { "version" = "0.0.0" }
